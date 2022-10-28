@@ -14,6 +14,6 @@ if (process.env.LOCAL_DEV_MODE){
 }
 else{
     server.listen(0, () => {
-        console.log('server running');
+        console.log('Server running');
     });
 }
